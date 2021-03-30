@@ -110,6 +110,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# btn tutor
+--------------------------------------------------------------*/
+.btn-tutor{
+  margin-top: -1em;
+  margin-right: -2rem;
+}
+
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
@@ -134,14 +142,15 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.5px;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
+
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #47b2e4;
+  color: rgba(99,201,226,255);
 }
 
 .nav-menu .drop-down ul {
@@ -230,14 +239,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px 25px 7px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
-  border: 2px solid #308C9F;
-  font-weight: 600;
+  border: 2px solid #427d99;
+  font-weight: 700;
 }
 
 .get-started-btn:hover {
-  background: #31a9e1;
+  background: #427d99;
   /* background: #308C9F; */
   color: #fff;
 }
@@ -427,9 +436,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-#hero .btn-watch-video:hover i {
+/* #hero .btn-watch-video:hover i {
   color: #47b2e4;
-}
+} */
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -548,7 +557,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: rgb(118,181,197);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -585,7 +594,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: rgb(118,181,197);
   line-height: 1;
 }
 
@@ -603,15 +612,15 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: rgb(118,181,197);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid rgb(118,181,197);
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
+  background: rgb(97, 168, 185);
   color: #fff;
   text-decoration: none;
 }
@@ -744,19 +753,22 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
 }
-
+.services p{
+  font-weight: 500;
+}
 .services .icon-box .icon {
   margin-bottom: 10px;
 }
 
 .services .icon-box .icon i {
-  color: #47b2e4;
+  color: rgb(118,181,197);
   font-size: 36px;
   transition: 0.3s;
 }
@@ -872,7 +884,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #47b2e4;
+  background: rgba(60, 140, 160, 0.6);
 }
 
 .team .member .social a:hover i {
@@ -898,7 +910,7 @@ section {
 
 .contact .info i {
   font-size: 1rem;
-  color: #488cd4;
+  color: rgba(69, 144, 163);
   float: left;
   width: 44px;
   height: 44px;
@@ -949,19 +961,19 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #47b2e4;
+  background: rgba(69, 144, 163);
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: rgba(69, 144, 163);
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid rgb(118,181,197);
+  border-bottom: 3px solid rgb(118,181,197);
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1029,7 +1041,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #47b2e4;
+  border-color: rgb(118,181,197);
 }
 
 .contact .php-email-form input {
@@ -1041,7 +1053,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #47b2e4;
+  background: rgb(118,181,197);
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1050,7 +1062,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #209dd8;
+  background: rgb(69, 144, 163);
+  box-shadow: 1px 1px 1px 1px rgba(52, 121, 138, 0.582);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1075,7 +1088,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background-color: rgba(50, 146, 166, .9);
+  background-color: rgba(69, 144, 163);
 }
 
 #footer .footer-newsletter {
@@ -1178,11 +1191,26 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
-  font-size: 18px;
+  color: rgb(118,181,197);
+  font-size: 30px;
   line-height: 1;
+  transition: 1s all;
 }
-
+#footer .footer-top .footer-links ul .bxl-twitter:hover {
+  color: #14171A;
+}
+#footer .footer-top .footer-links ul .bxl-facebook:hover {
+  color: #4267B2;
+}
+#footer .footer-top .footer-links ul .bxl-instagram:hover {
+  color: #FD1D1D;
+}
+#footer .footer-top .footer-links ul .bxl-linkedin:hover {
+  color: #2867B2;
+}
+#footer .footer-top .footer-links ul .bxl-skype:hover {
+  color: #14171A;
+}
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
