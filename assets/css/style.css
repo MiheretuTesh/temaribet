@@ -108,6 +108,11 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
+/* LOGO */
+.logo{
+  margin-top: -1rem !important;
+  width: 35px;
+}
 
 /*--------------------------------------------------------------
 # btn tutor
@@ -365,6 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -383,6 +389,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .container {
   padding-top: 72px;
+}
+
+.hero-text{
+  margin-left: -6.5rem;
+}
+
+.hero-btn{
+  margin-left: -2.5rem;
 }
 
 #hero h1 {
@@ -444,9 +458,19 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+@media (max-width: 1199px){
+  .hero-text{
+    margin-left: -5rem;
+  }
+  
+  .hero-btn{
+    margin-left: -2.5rem;
+  }
+}
+
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 95vh;
     text-align: center;
   }
   #hero .animated {
@@ -459,15 +483,24 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 50%;
   }
+
+  .hero-btn{
+    margin-left: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
+  #hero{
+    height: 75vh;
+  }
   #hero h1 {
+    margin-left: -3rem;
     font-size: 28px;
     line-height: 36px;
   }
   #hero h2 {
     font-size: 18px;
+    margin-left: 2rem;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -1200,7 +1233,7 @@ section {
   color: #14171A;
 }
 #footer .footer-top .footer-links ul .bxl-facebook:hover {
-  color: #4267B2;
+  color: #4267B2;herp
 }
 #footer .footer-top .footer-links ul .bxl-instagram:hover {
   color: #FD1D1D;
@@ -1294,3 +1327,6 @@ section {
     display: none !important;
   }
 }
+
+/* PAGE RESPONSIVENESS */
+@media(max-width: 900px){}

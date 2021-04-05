@@ -15,7 +15,14 @@
   
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
+    
+    <!-- Bootstraps -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.8.1/css/bootstrap-select.css"> -->
+
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -30,30 +37,30 @@
   </head>
 <body>
 
-  <!-- ======= Header ======= -->
+ 
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo"><img src="assets/img/logo/Just-ask-2-150x150-removebg-preview.png" style="margin-top: -10px; width: 40px;" alt="" class="img-fluid rounded"></a>
+      <a href="index.html" class="logo"><img src="assets/img/logo/Just-ask-2-150x150-removebg-preview.png"  alt="" class="img-fluid rounded"></a>
 
       <h1 class="mr-auto ml-1"><a class="text-white" href="index.html">Temaribet</a></h1>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#services">Services</a></li>
-          <!-- <li class="drop-down"><a href="#register">Register</a>
+          <li class="drop-down"><a href="#register">Register</a>
             <ul>
               <li><a href="#">Register As Student</a></li>
               <li><a href="#">Register As A Tutor</a></li>
             </ul>
-          </li> -->
+          </li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#contact">Contact Us</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="#about" class="get-started-btn scrollto">Login</a>
+      <!-- <a href="#about" class="get-started-btn scrollto">Login</a> -->
       <!-- <a href="#about" class="get-started-btn scrollto">Sign Up</a> -->
 
     </div>
@@ -65,12 +72,12 @@
       <div class="primary-overlay">
 
       <div class="row justify-content-around">
-        <div class="col-lg-10 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="margin-left: -6.5rem;" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-10 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 hero-text" data-aos="fade-up" data-aos-delay="200">
           <h1>We Make Learning Fun </h1>
           <h2>temaribet: a tutoring service providing company</h2>
           <div class="row justify-content-center">
-            <div class="col-auto p-5">
-              <a href="#register" class="btn btn-dark btn-lg p-20" style="margin-left: -2.5rem; background-color: #343a40;">Get A Tutor</a>
+            <div class="col-auto p-5 hero-btn">
+              <a href="#register" class="btn btn-dark btn-lg p-20" style=" ">Get A Tutor</a>
             </div>
             <div class="col-auto ml-auto"></div>
           </div>
@@ -262,21 +269,213 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minima atque accusamus suscipit nobis quo.</p>
         </div>
 
+
+        <form action="">
+        <div class="row mb-4">
+          <div class="col">
+            Parents Information
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="First Name" class="form-control form-control-lg" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="Last Name" class="form-control form-control-lg" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="Phone Number" class="form-control form-control-lg" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="Email" class="form-control form-control-lg" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+          </div>
+        </div>
+
         <div class="row">
-          <div class="col-md-6 border-right">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad 
-              ipsa iste impedit aperiam ex perferendis aspernatur labore at 
-              asperiores voluptas itaque voluptates quasi in voluptate, 
-              voluptatibus neque repellat repellendus iusto.</p>
-              <a href="#" class="btn btn-outline-secondary">Register For a Student</a>
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="Address" class="form-control form-control-lg" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
           </div>
-          <div class="col-md-6 border-right-0">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad 
-              ipsa iste impedit aperiam ex perferendis aspernatur labore at 
-              asperiores voluptas itaque voluptates quasi in voluptate, 
-              voluptatibus neque repellat repellendus iusto.</p>
-              <a href="#" class="btn btn-outline-secondary">Register As a Tutor</a>
+          <!-- <div class="col-md-6">
+            <input type="text" name="name" placeholder="First Name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+          </div> -->
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <label for="exampleFormControlInput1">Child Info</label>
           </div>
+        </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <input type="text" name="name" placeholder="First Name" class="form-control form-control-lg" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="name" placeholder="Last Name" class="form-control form-control-lg" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="form-control form-control-lg">
+                      <option>KG</option>
+                      <option>Primary School</option>
+                      <option>High School</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                    <select class="form-control form-control-lg">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                    </select>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row">
+            <div class="col text-center">
+              <div class="btn btn-outline-info btn-lg mt-3">Register</div>
+            </div>
+          </div>
+
+        </form>
+
+    
+
+
+        <!-- <div class="row">
+          <div class="col-md-8">
+            <div class="card p-4">
+              <div class="card-block">
+                <h3 class="text-center">Please fill out this form to contact us</h3>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                      <label for="exampleFormControlInput1">Parent Info</label>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="First Name" id="exampleFormControlInput1">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Phone Number">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <label for="exampleFormControlInput1">Child Info</label>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="First Name" id="exampleFormControlInput1">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                  </div>
+                </div>
+                
+
+
+                <div class="row">
+                    <div class="col">
+                        <p>Grade Level</p>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                      <div class="form-group">
+                          <select class="form-control">
+                            <option>KG</option>
+                            <option>Primary School</option>
+                            <option>High School</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                          <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                          </select>
+                        </div>
+                    </div>
+                 
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                      <p>Grade Level</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <select class="selectpicker" multiple data-live-search="true">
+                          <option>English</option>
+                          <option>Biology</option>
+                          <option>Chemistry</option>
+                          <option>Physics</option>
+                          <option>Mathematics</option>
+                        </select>
+                      </div>
+                  </div>
+              </div>
+            </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <input type="submit" class="btn btn-danger btn-block" value="Submit">
+                  </div>
+                </div>
+              </div>
         </div>
         <div class="row justify-content-end">
           <div class="col-auto mr-auto"></div>
@@ -284,7 +483,7 @@
           <div class="col-auto p-5">
             <a href="#register" class="btn btn-dark btn-lg p-2 align-self-end">Get A Tutor</a>
           </div>
-          <div class="col-auto ml-auto"></div>
+          <div class="col-auto ml-auto"></div> -->
         </div>
       </div>
     </section>
@@ -537,11 +736,12 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>      
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
