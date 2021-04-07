@@ -510,8 +510,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 575px) {
+  #hero{
+    background-size: 120% 110%;
+  }
   #hero .hero-img img {
-    width: 80%;
+    width: 50%;
   }
   #hero .btn-get-started {
     font-size: 16px;
