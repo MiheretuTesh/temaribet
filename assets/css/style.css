@@ -1009,7 +1009,7 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+ .php-email-form {
   width: 100%;
   border-top: 3px solid rgb(118,181,197);
   border-bottom: 3px solid rgb(118,181,197);
@@ -1018,48 +1018,47 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .php-email-form .form-group {
+ .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+ /* .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
-
-.contact .php-email-form .error-message {
+ .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
-}
+} */
 
-.contact .php-email-form .error-message br + br {
+ /* .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+ .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
-}
+} */
 
-.contact .php-email-form .loading {
+ .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+ /* .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1070,28 +1069,38 @@ section {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+ .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+
+ .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: rgb(118,181,197);
+}
+.php-email-form select:focus, .contact .php-email-form textarea:focus {
   border-color: rgb(118,181,197);
 }
 
-.contact .php-email-form input {
+ .php-email-form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.php-email-form select {
+  height: 44px;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+ .php-email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+ .php-email-form button[type="submit"] {
   background: rgb(118,181,197);
   border: 0;
   padding: 12px 34px;
@@ -1100,7 +1109,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+ .php-email-form button[type="submit"]:hover {
   background: rgb(69, 144, 163);
   box-shadow: 1px 1px 1px 1px rgba(52, 121, 138, 0.582);
 }

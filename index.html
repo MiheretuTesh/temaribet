@@ -60,7 +60,7 @@
           <li class="drop-down"><a href="#register">Register</a>
             <ul>
               <li><a href="#register">Register As Student</a></li>
-              <li><a href="#">Register As A Tutor</a></li>
+              <li><a href="tutor.html">Register As A Tutor</a></li>
             </ul>
           </li>
           <li><a href="#about">About Us</a></li>
@@ -270,7 +270,7 @@
 
     <!-- REGISTRATION SECTION START -->
     <section id="register" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
+      <div class="container php-email-form" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Register</h2>
@@ -351,7 +351,8 @@
               </div>
               <div class="col-md-4">
                 <div class="form-group">
-                    <select class="form-control form-control-lg">
+                    <select class="form-control form-control-lg" value="0">
+                      <option selected="0" selected disabled hidden>Grade Level</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -371,23 +372,23 @@
               <div class="col-md-5 mb-5" style="z-index: 1;" >
                 <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle btn-lg" type="button" 
-                  id="sampleDropdownMenu" data-toggle="dropdown">
+                  id="sampleDropdownMenu" data-toggle="dropdown" style="height: 44px;font-size: 14px;">
                   Select Subject
                   </button>
                   <div class="dropdown-menu">
-                  <button class="dropdown-item" type="button">
+                  <button class="dropdown-item d-flex flex-row align-items-center" style="margin-top: -20px;" type="button">
                    <input type="checkbox" class="mr-2">Biology
                    </button>
-                  <button class="dropdown-item" type="button">
+                  <button class="dropdown-item d-flex flex-row align-items-center" style="margin-top: -20px;" type="button">
                    <input type="checkbox" class="mr-2">Chemistry
                   </button>
-                  <button class="dropdown-item" type="button">
+                  <button class="dropdown-item d-flex flex-row align-items-center" style="margin-top: -20px;" type="button">
                     <input type="checkbox" class="mr-2">Mathematics
                   </button>
-                  <button class="dropdown-item" type="button">
+                  <button class="dropdown-item d-flex flex-row align-items-center" style="margin-top: -20px;" type="button">
                     <input type="checkbox" class="mr-2">English
                   </button>
-                  <button class="dropdown-item" type="button">
+                  <button class="dropdown-item d-flex flex-row align-items-center" style="margin-top: -20px;" type="button">
                     <input type="checkbox" class="mr-2">Physics
                   </button>
                   </div>
