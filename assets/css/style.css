@@ -1114,6 +1114,13 @@ section {
   box-shadow: 1px 1px 1px 1px rgba(52, 121, 138, 0.582);
 }
 
+.filter label {
+  cursor: pointer;
+  display: block;
+  background: #eee;
+  margin:1px; padding: 1px;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1248,7 +1255,7 @@ section {
   color: #14171A;
 }
 #footer .footer-top .footer-links ul .bxl-facebook:hover {
-  color: #4267B2;herp
+  color: #4267B2;
 }
 #footer .footer-top .footer-links ul .bxl-instagram:hover {
   color: #FD1D1D;
@@ -1343,5 +1350,9 @@ section {
   }
 }
 
-/* PAGE RESPONSIVENESS */
-@media(max-width: 900px){}
+.da{
+  display: none;
+}
+.ds{
+  display: block;
+}

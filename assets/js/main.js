@@ -143,23 +143,47 @@
   });
 
   // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
-  });
+  // $('.skills-content').waypoint(function() {
+  //   $('.progress .progress-bar').each(function() {
+  //     $(this).css("width", $(this).attr("aria-valuenow") + '%');
+  //   });
+  // }, {
+  //   offset: '80%'
+  // });
 
   // Init AOS
-  function aos_init() {
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  }
-  $(window).on('load', function() {
-    aos_init();
-  });
+  // function aos_init() {
+  //   AOS.init({
+  //     duration: 1000,
+  //     once: true
+  //   });
+  // }
+  // $(window).on('load', function() {
+  //   aos_init();
+  // });
 
 })(jQuery);
+
+
+//VANILLA JS
+
+const grade = document.querySelector(".grades");
+const levels = document.querySelector(".levels");
+
+grade.addEventListener('change', ()=>{
+  console.log(grade.value)
+})
+function activity(value){
+  if(value==="KG"){
+    levels.innerHTML = "<option>1</option><option>2</option><option>3</option>"
+  }
+  if(value==="Primary School"){
+    levels.innerHTML = "<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option>"
+  }
+  if(value==="High School"){
+    levels.innerHTML = "<option>9</option><option>10</option><option>11</option><option>12</option>"
+
+  }
+}
+
+// const kg = document
